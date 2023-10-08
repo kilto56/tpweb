@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LA programmation en JavaScript - Lien avec le CSS</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="header">
+		<div class="imgcontent">
+		<a href="index.html"><img class="img" src="jsphoto.png"/></a>
+		</div>
+		<div class="title">
+			<h2>La programmation en JavaScript</h2>
+		</div>
+	</header>
+    <div class="corps">
+        <h2 class="titlecorps">Liaison CSS - Js</h2>
+        <p>Le JavaScript possède une syntaxe qui permet d'utiliser du style dans une page web. Il suffit de séléctionner l'élément grace à "querySelector" ou "getElementById/TagName..." ou encore "querySelectorAll" (et j'en passe)...</p>
+        <div class="code">
+            <p>
+                <span class="elementjs">document</span><span class="actionjs">.querySelector</span><span class="parenthesejs">(</span><span class="valuejs">"p"</span><span class="parenthesejs">)</span><span class="actionjs">.color</span><span class="signjs"> = </span><span class="valuejs">"red"</span><span class="signjs">;</span>
+            </p>
+        </div>
+        <br/>
+        <h2 class="titlecorps">Exemple</h2>
+        <p>Cliquez sur les différents bouttons ci dessous pour modifier la couleur du rectangle.</p>
+        <div class="containbuttonanimcss">
+            <button class="animcss" id="pink"></button>
+            <button class="animcss" id="blue"></button>
+            <button class="animcss" id="green"></button>
+            <button class="animcss" id="red"></button>
+        </div>
+        <br/>
+        <div class="rectangle"></div>
+        <div class="annexe">
+			<button class="annexebutton">En savoir plus sur le Js</button>
+			<button class="annexebutton">En savoir plus sur le lien HTML - Js</button>
+		</div>
+    </div>
+
+    <script src="scriptcss.js"></script>
+</body>
+</html>
