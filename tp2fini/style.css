@@ -1,0 +1,173 @@
+.header {
+	height: 70px;
+	background-color: grey;
+	color: white;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	padding-left: 10px;
+	padding-right: 10px;
+	text-align: right;
+}
+
+p {
+	text-align: justify;
+}
+
+body, div, html {
+	padding: 0;
+	margin: 0;
+}
+
+.img {
+	height: 50px;
+	position: absolute;
+	left: 20px;
+	top: 28px;
+}
+
+.corps {
+	margin: 50px 100px 50px 100px;
+	font-family: Arial;	
+}
+.titlecorps {
+	text-decoration: underline;
+	font-weight: bold;
+}
+
+.code {
+	background-color: #666;
+	border-radius: 20px;
+	color: white;
+	padding: 10px 20px 10px 20px;
+	margin-right: 40px;
+	overflow: auto;
+	white-space: scroll;
+}
+
+.varjs {
+	color: white;
+}
+
+.signjs {
+	color: red;
+}
+
+.valuejs {
+	color: lightgreen;
+}
+
+.declajs {
+	color: lightblue;
+}
+
+@media only screen and (max-width: 750px) {
+	.title h2 {
+		padding-top: 5px;
+		font-size: 20px;
+	}
+
+	.corps {
+		margin: 30px 5Opx 30px 50px;
+	}
+}
+
+.doctypehtml {
+	color: blue;
+}
+
+.balisehtml {
+	color: rgb(20, 196, 255);
+}
+
+.attributhtml {
+	color: lightblue;
+}
+
+.elementjs {
+	color: blue;
+}
+
+.actionjs {
+	color: rgb(20, 196, 255);
+}
+
+.parenthesejs {
+	color: orangered;
+}
+
+.annexe {
+	margin-top: 20px;
+}
+
+.annexebutton {
+	height: 40px;
+	min-width: 100%;
+	color: black;
+	background-color: yellow;
+	border-radius: 30px;
+	border: solid rgb(202, 202, 57);
+	margin-top: 10px;
+	transition: background-color 0.3s ease-in-out;
+}
+
+.annexebutton:hover {
+	background-color: rgb(202, 202, 57);
+}
+
+.containbuttonanimcss {
+	display: flex;
+}
+
+.animcss {
+	height: 40px;
+	width: 40px;
+	flex: auto;
+	margin-left: 3px;
+	margin-right: 3px;
+	border-radius: 5px;
+}
+
+#pink {
+	background-color: pink;
+}
+
+#red {
+	background-color: red;
+}
+
+#blue {
+	background-color: blue;
+}
+
+#green {
+	background-color: green;
+}
+
+.rectangle {
+	border: solid 2px black;
+	height: 200px;
+}
+
+.containbuttonanimhtml {
+	display: flex;
+}
+
+.animhtml {
+	margin-top: 3px;
+	margin-left: 3px;
+	margin-right: 3px;
+	flex: auto;
+}
+
+.input {
+	min-width: 100%;
+	margin-top: 10px;
+}
+
+.textcontain {
+	margin-top: 20px;
+	border: solid 2px black;
+	padding: 10px;
+	display: flex;
+	flex-direction: column;
+}

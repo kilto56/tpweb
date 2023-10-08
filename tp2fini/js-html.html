@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <title>La programmation en Js - Lien avec l'HTML</title>
+    <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+    <header class="header">
+		<div class="imgcontent">
+		<a href="index.html"><img class="img" src="jsphoto.png"/></a>
+		</div>
+		<div class="title">
+			<h2>La programmation en JavaScript</h2>
+		</div>
+	</header>
+    <div class="corps">
+        <h2 class="titlecorps">Liaison HTML - Js</h3>
+        <p>Le JavaScript peut se lier à une page HTML très simplement ! Soit interne soit par recherche d'une feuille différente !
+            <br/>
+            On utilise donc :<span style="color: red;"><br/>&#8249;script&#8250;<br/>//le code en JavaScript <br/>&#8249;/script&#8250;</span>.
+            <br/>
+            Ou :
+            <span style="color: red;"><br/>&#8249;script src="script.js"&#8250;<br/>&#8249;/script&#8250;</span>
+            <br/>
+            Il vaut mieux utiliser la seconde méthode pour privilégier une meilleure lecture de votre site web par le navigateur et toujours mettre ces balises en fin de body car il faut lancer le JavaScript en dernier dans une page pour éviter les dégats.
+        </p>
+        <div class="code">
+            <p>
+                <span class="doctypehtml">&#8249;!DOCTYPE html&#8250;</span> <br/>
+                <span class="balisehtml">&#160;&#160;&#8249;html&#8250;</span> <br/>
+                <span class="balisehtml">&#160;&#160;&#160;&#160;&#8249;body&#8250;</span> <br/>
+                <span class="balisehtml">&#160;&#160;&#160;&#160;&#160;&#160;&#8249;h3&#8250;</span>Lier une feuille Js <span class="balisehtml">&#8249;/h3&#8250;</span> <br/>
+                <br/>
+                <span class="balisehtml">&#160;&#160;&#160;&#160;&#160;&#160;&#8249;script</span> <span class="attributhtml">src="script.js"</span><span class="balisehtml">&#8250;</span> <br/>
+                <span class="balisehtml">&#160;&#160;&#160;&#160;&#160;&#160;&#8249;/script&#8250;</span> <br/>
+                <span class="balisehtml">&#160;&#160;&#160;&#160;&#8249;/body&#8250;</span> <br/>
+                <span class="balisehtml">&#160;&#160;&#8249;/html&#8250;</span>
+
+            </p>
+        </div>
+        <h2 class="titlecorps">Exemple</h2>
+        <p>Inserez une valeur à l'input et cliquer sur les boutons pour faire réagir la page.</p>
+        <div>
+        	<input type="text" class="input" id="input" placeholder="Inserer votre texte ici"/>
+        	<div class="containbuttonanimhtml">
+        		<button class="animhtml">Ajouter texte</button>
+        		<button class="animhtml">Retirer texte</button>
+			</div>
+			<div class="textcontain" id="parent">
+			</div>
+		</div>
+        <div class="annexe">
+			<button class="annexebutton">En savoir plus sur le Js</button>
+			<button class="annexebutton">En savoir plus sur le lien CSS - Js</button>
+		</div>
+    </div>
+    
+    <script src="scripthtml.js"></script>
+</body>
+</html>
